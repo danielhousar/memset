@@ -1,3 +1,7 @@
+/***************************************************************
+ * file:	memset.c
+ ***************************************************************/
+
 /* This file contains a variety of implementations of memset. If you don't know
  * what memset is `man memset` may enlighten you. Its definition is
  *
@@ -18,7 +22,6 @@
  * Matthew Fernandez, 2011
  */
 
-#include <string.h>
 #include <stdio.h>
 #include <stdint.h>
 #include <assert.h>
