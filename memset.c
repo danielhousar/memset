@@ -1,5 +1,8 @@
 /***************************************************************
  * file:	memset.c
+ *
+ * Author:	Matthew Fernandez (matthew.fernandez@gmail.com)
+ *
  ***************************************************************/
 
 /* This file contains a variety of implementations of memset. If you don't know
