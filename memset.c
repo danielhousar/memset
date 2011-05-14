@@ -154,8 +154,9 @@ void* wordwise_32_unaligned_memset(void* s, int c, size_t sz) {
     /* Let's introduce a prologue to bump the starting location forward to the
      * next alignment boundary.
      */
-    while (((unsigned int)pp & 3) && sz--)
+    while (((unsigned int)pp & 3) && sz--) {
         *pp++ = xx;
+	}
     p = (uint32_t*)pp;
 
     /* Let's figure out the number of bytes that will be trailing when the
