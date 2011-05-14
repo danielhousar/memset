@@ -25,6 +25,7 @@
  * Matthew Fernandez, 2011
  */
 
+#include <string.h>
 #include <stdio.h>
 #include <stdint.h>
 #include <assert.h>
